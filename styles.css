@@ -1,0 +1,52 @@
+body {
+    font-family: Comic Sans MS, cursive, sans-serif;
+    margin: 30px;
+}
+
+#task-form {
+    margin-bottom: 20px;
+}
+
+#task-list {
+    margin-top: 20px;
+}
+
+.task {
+    border: 2px solid black;
+    padding: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+
+.low {
+    background-color: green; 
+    color: white;
+}
+
+.medium {
+    background-color: orange;
+    color: white;
+}
+
+.high {
+    background-color: red; 
+    color: white;
+}
+
+/* COMPLETED TASKS */
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+    filter: grayscale(50%);
+}
+
+.task-buttons button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+}
